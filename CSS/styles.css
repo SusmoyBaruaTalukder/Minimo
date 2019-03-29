@@ -1,0 +1,316 @@
+/*font-family: 'Playfair Display', serif;*/
+/*font-family: 'Ubuntu', sans-serif;*/
+/*font-family: 'Inconsolata', monospace;*/
+
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: 'Playfair Display', serif;
+	color: #626262;
+}
+
+/* Header Start */
+header
+{
+	padding: 25px 0;
+}
+
+.container 
+{
+	overflow: hidden;
+	width: 90%;
+	margin:0 auto;
+}
+
+.logo 
+{
+	width: 10%;
+	float: left;
+	margin-top: 10px;
+}
+.logo img
+{
+	width: 100%;
+}
+
+.menu 
+{
+	width: 65%;
+	float: right;	
+}
+.menu ul
+{
+	float: right;
+}
+.menu ul li
+{
+	list-style: none;
+	float: left;
+
+}
+.menu ul li a
+{
+
+	display: block;
+	text-decoration: none;
+	padding:0 55px;
+	text-transform: uppercase;
+	color: #626262;
+	font-size: 14px;
+	font-weight: 400;
+	
+}
+.menu ul li a:hover
+{
+	color: #b4ad9e;
+}
+.menu ul li:last-child a
+{
+	padding-right: 0;
+}
+/* Header End */
+
+/* Banner Start */
+.banner
+{
+
+}
+.banner_img
+{
+
+}
+.banner_img img
+{
+	width: 100%;
+}
+/* Banner End */
+
+/* Perfect Start */
+.perfect
+{
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.container2
+{
+	overflow: hidden;
+	width: 80%;
+	margin:0 auto;
+}
+.perfect_content{}
+.common_p
+{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	text-transform: uppercase;
+	color: #b4ad9e;
+}
+.perfect_content h1
+{
+	font-size: 30px;
+	font-weight: 400;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.text
+{
+	font-size: 15px;
+	line-height: 27px;
+	word-spacing: 1px;
+}
+.m_t_40
+{
+	margin-top: 40px;
+}
+/* Perfect End */
+
+/* Blog Start */
+.blog
+{
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.blog content{}
+.single
+{
+	width: 47%;
+	float: left;
+	padding-bottom: 75px;
+}
+.single:nth-child(even)
+{
+	margin-left: 6%;
+}
+.blog_img
+{
+	margin-bottom: 25px;
+}
+.blog_img img
+{
+	width: 100%;
+}
+.common_h1
+{
+	font-weight: 400;
+	font-size: 30px;
+	margin-top: 10px;
+}
+.single .blog_text
+{
+	font-size: 14px;
+	line-height: 20px;
+}
+/* Blog End */
+
+/* Sign up Start */
+.sign_up
+{
+	padding-bottom: 60px;
+}
+.container3
+{
+	width: 100%;
+	background-color: #f0f0f0;
+}
+.sign_up_content
+{
+	margin:0 auto;
+	width: 25%;
+	padding: 70px 0;
+}
+.sign_up_content h1
+{
+	font-weight: 400;
+	font-size: 30px;
+	color: #333333;
+	margin-top: 10px;
+    margin-bottom: 60px;
+}
+.email_form
+{
+	position: relative;
+    width: 330px;
+    left: 0;
+    right: 0;
+}
+.email_form input
+{
+	outline: none;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 300px;
+	color: #626262;
+	font-family: 'Playfair Display', serif;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 0px 0px 4px 1px;
+}
+.email_form button
+{
+	top: -2px;
+    right: 20px;
+    position: absolute;
+    border: none;
+    background: transparent;
+}
+
+/* Sign up End */
+
+/* Service Start */
+.service
+{
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.service_content
+{
+	overflow: hidden;
+}
+.service_img{}
+.service_img img
+{
+	width: 100%;
+}
+/* Service End */
+
+/* Load Button Start */
+.load
+{
+	padding-top: 125px;
+	padding-bottom: 125px;
+}
+.load_button
+{
+	margin:0 auto;
+	width: 15%;
+}
+.load_button button
+{
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	font-size: 20px;
+	color: #626262;
+	background-color: white;
+	border: 1px solid black;
+	text-align: center;
+	padding: 17px 35px;
+}
+.load_button button:hover
+{
+	background-color: #b4ad9e;
+}
+/* Load Button End */
+
+/* Footer Start */
+.footer
+{
+	padding-top: 60px;
+}
+.footer_content
+{
+	overflow: hidden;
+	width: 85%;
+	margin-left: 150px;
+	padding: 20px 0;
+}
+.footer_security
+{
+	width: 25%;
+	float: left;
+}
+.footer_security ul
+{
+	float: left;
+}
+.common_li
+{
+	list-style: none;
+	float: left;
+}
+.common_a
+{
+	display: block;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 700;
+	color: black;
+	padding-left: 15px;
+}
+.common_a:hover
+{
+	color: #626262;
+}
+.footer_follow
+{
+	padding-left: 100px;
+	width: 20%;
+	float: right;
+}
+.footer_follow li img
+{
+	margin-left: 25px;
+}
+/* Footer End */
